@@ -41,7 +41,7 @@ Cloud Project/
 
 1. **Navigate to the project directory**:
    ```bash
-   cd "C:\Users\Qamar Tahzib\Desktop\Cloud Project"
+   cd "C:\Users\User\Desktop\Cloud Project"
    ```
 
 2. **Install dependencies**:
@@ -71,7 +71,7 @@ Submit a contact form message.
 **Request Body:**
 ```json
 {
-  "name": "John Doe",
+  "name": "Shams Tahzib",
   "email": "john@example.com",
   "message": "Your message here",
   "timestamp": "2024-01-01T00:00:00.000Z"
@@ -128,4 +128,5 @@ Get all contact form submissions (for admin purposes).
 - The `data/` directory is created automatically when the server starts
 - CORS is enabled for API requests
 - All pages are responsive and optimized for all screen sizes
+
 
