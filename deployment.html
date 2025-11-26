@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Deployment - Cloud Computing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>☁️ Cloud Computing</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="use-cases.html">Use Cases</a></li>
+                    <li><a href="deployment.html" class="active">Deployment</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="theme-toggle-wrapper">
+                    <label class="theme-toggle" for="darkModeToggle">
+                        <input type="checkbox" id="darkModeToggle" aria-label="Toggle dark mode">
+                        <span class="toggle-slider">
+                            <span class="toggle-icon">🌙</span>
+                            <span class="toggle-icon">☀️</span>
+                        </span>
+                    </label>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Cloud Deployment</h1>
+                <p>Learn about deploying applications to the cloud</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="deployment-intro">
+                        <h2>What is Cloud Deployment?</h2>
+                        <p>Cloud deployment refers to the process of deploying applications, services, or infrastructure to cloud computing platforms. This enables businesses to leverage scalable, reliable, and cost-effective cloud resources instead of maintaining physical servers.</p>
+                        
+                        <h3>Key Benefits:</h3>
+                        <ul class="benefits-list">
+                            <li><strong>Scalability:</strong> Automatically scale resources based on demand</li>
+                            <li><strong>Reliability:</strong> High availability with redundant infrastructure</li>
+                            <li><strong>Cost Efficiency:</strong> Pay only for what you use</li>
+                            <li><strong>Global Reach:</strong> Deploy closer to your users worldwide</li>
+                            <li><strong>Security:</strong> Enterprise-grade security features</li>
+                        </ul>
+                    </div>
+
+                    <div class="deployment-methods">
+                        <h2>Deployment Methods</h2>
+                        <div class="methods-grid">
+                            <div class="method-card">
+                                <div class="method-icon">🚀</div>
+                                <h3>Continuous Deployment</h3>
+                                <p>Automated deployment pipeline that releases code changes to production automatically after passing tests.</p>
+                            </div>
+                            <div class="method-card">
+                                <div class="method-icon">📦</div>
+                                <h3>Container Deployment</h3>
+                                <p>Deploy applications using containers (Docker, Kubernetes) for consistent environments across all stages.</p>
+                            </div>
+                            <div class="method-card">
+                                <div class="method-icon">☁️</div>
+                                <h3>Serverless Deployment</h3>
+                                <p>Deploy functions and applications without managing servers. Cloud provider handles infrastructure automatically.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="file-upload-section">
+                        <h2>Simulate File Deployment</h2>
+                        <p>Experience a simplified cloud deployment process by uploading a file. This simulation demonstrates how files are processed and deployed to cloud storage.</p>
+                        
+                        <div class="upload-container">
+                            <div class="upload-area" id="uploadArea">
+                                <svg class="upload-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="5,5"/>
+                                    <path d="M35 50 L50 35 L65 50" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/>
+                                    <path d="M50 35 L50 65" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                                    <circle cx="70" cy="30" r="8" fill="currentColor" opacity="0.6"/>
+                                    <path d="M65 30 L70 25 L75 30" stroke="currentColor" stroke-width="2" fill="none"/>
+                                </svg>
+                                <p class="upload-text">Drag and drop your file here</p>
+                                <p class="upload-subtext">or click to browse</p>
+                                <input type="file" id="fileInput" style="display: none;" multiple>
+                            </div>
+                            
+                            <div class="upload-progress" id="uploadProgress" style="display: none;">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="progressFill"></div>
+                                </div>
+                                <p class="progress-text" id="progressText">Uploading...</p>
+                            </div>
+
+                            <div class="upload-results" id="uploadResults"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Cloud Computing</h4>
+                    <p>Transform your business with scalable, efficient, and secure cloud solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="use-cases.html">Use Cases</a></li>
+                        <li><a href="deployment.html">Deployment</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 <a href="mailto:info@cloudcomputing.com">info@cloudcomputing.com</a></p>
+                    <p>📞 +1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook" title="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter" title="Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn" title="LinkedIn">💼</a>
+                        <a href="#" aria-label="GitHub" title="GitHub">🐙</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cloud Computing Project. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/deployment.js"></script>
+</body>
+</html>
+
